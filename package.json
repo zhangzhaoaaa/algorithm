@@ -1,0 +1,8 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zhangzhaoaaa/algorithm.git",
+  "author": "zeromike <540187842@qq.com>",
+  "license": "MIT"
+}
