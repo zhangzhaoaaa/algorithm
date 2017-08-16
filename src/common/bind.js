@@ -3,7 +3,7 @@
  Created by zhangzhao on 2017/8/14.
  Email: zhangzhao@gomeplus.com
  */
-Function.bind.prototype = function () {
+Function.prototype.bind = function () {
     var fn = this, args = [].slice.call(arguments), object = args.shift();
     return function () {
         var arg = [].slice.call(arguments);
